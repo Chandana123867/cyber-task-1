@@ -1,0 +1,28 @@
+# Nmap 7.99 scan initiated Fri Apr 10 11:10:41 2026 as: nmap -sS -oN scan.txt 192.168.31.0/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0037s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 3C:0A:F3:16:8D:22 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for M2004J19C-Redmi9Prim.lan (192.168.31.238)
+Host is up (0.0067s latency).
+All 1000 scanned ports on M2004J19C-Redmi9Prim.lan (192.168.31.238) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B8:94:E7:2D:F7:4C (Xiaomi Communications)
+
+Nmap scan report for Chandana.lan (192.168.31.198)
+Host is up (0.00025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Fri Apr 10 11:11:29 2026 -- 256 IP addresses (3 hosts up) scanned in 47.66 seconds
